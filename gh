@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="new.css">
+<!-- <style>
+@font-face{}
+table, th, td {
+text-align: center;
+    border: 0px solid black;
+	padding: 15px;
+}
+tr:nth-child(1) {
+    background: red;
+}
+.sh td:nth-child(1) {
+    background: red;
+}
+</style> -->
+</head>
+<body>
+<input type="text"></input>
+<div class="pos1">
+<p class="pos">egsdfgsdfgsdfgtertwertert
+<table  class="sh" style="width:100%">
+  <tr>
+    <td>Jill</td> 
+    <td>Smith</td>		
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>		
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>		
+    <td>80</td>
+  </tr>
+</table>
+
+</body>
+</html>
