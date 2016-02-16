@@ -1,0 +1,28 @@
+@font-face{font-family:"ajksdhfjkah",src:('adfadfa.ttf')}
+
+table, th, td {
+text-align: center;
+    border: 0px solid black;
+	padding: 15px;
+}
+tr:nth-child(1) {
+    background: red;
+}
+.sh td:nth-child(1) {
+    background: red;
+}
+.pos{
+position:relative;
+top:50px;
+left:500px;
+ 
+
+}
+.pos1{
+background-color: lightblue;
+width:500px;
+height:500px;
+position:relative;
+top:0px;
+left:0px;
+}
