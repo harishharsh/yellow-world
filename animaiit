@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<style>
+body { 
+
+   position: relative; 
+   top: 50%; 
+   left:40%;
+   width: 100%; 
+}
+
+h2 { 
+   position: fixed; 
+   top: 50%; 
+   left:40%; 
+   
+}
+body {
+  color: #fff;
+ // font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+}
+.box {
+  background: #2db34a;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 95px;
+  line-height: 450px;
+ 
+  position:fixed;
+  top:200px;
+  left:600px;
+  transition-property: background, border-radius,position,top;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  width: 95px;
+}
+.box:hover {
+  background: #ffffcc;
+  border-radius: 50%;
+  position:fixed;
+  top:500px;
+   left:600px;
+}
+.box1 {
+  position:fixed;
+  top:200px;
+  left:200px;
+  background: #2db34a;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 95px;
+  line-height: 450px;
+ 
+
+  transition-property: background, border-radius,position,top;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  width: 95px;
+}
+.box1:hover {
+  background: #ffffcc;
+  border-radius: 50%;
+  position:fixed;
+  top:500px;
+   left:200px;
+}
+.box2 {
+  position:fixed;
+  top:200px;
+  left:300px;
+  background: #2db34a;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 95px;
+  line-height: 450px;
+ 
+
+  transition-property: background, border-radius,position,top;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  width: 95px;
+}
+.box2:hover {
+  background: #ffffcc;
+  border-radius: 50%;
+  position:fixed;
+  top:500px;
+   left:300px;
+}
+.box3 {
+  position:fixed;
+  top:200px;
+  left:400px;
+  background: #2db34a;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 95px;
+  line-height: 450px;
+ 
+
+  transition-property: background, border-radius,position,top;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  width: 95px;
+}
+.box3:hover {
+  background: #ffffcc;
+  border-radius: 50%;
+  position:fixed;
+  top:500px;
+   left:400px;
+}
+.box4 {
+  position:fixed;
+  top:200px;
+  left:500px;
+  background: #2db34a;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 95px;
+  line-height: 450px;
+ 
+
+  transition-property: background, border-radius,position,top;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  width: 95px;
+}
+.box4:hover {
+  background: #ffffcc;
+  border-radius: 50%;
+  position:fixed;
+  top:500px;
+   left:500px;
+}
+.box5 {
+  position:fixed;
+  top:200px;
+  left:200px;
+  background: #2db34a;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 95px;
+  line-height: 450px;
+ 
+
+  transition-property: background, border-radius,position,top;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  width: 95px;
+}
+.box5:hover {
+  background: #ffffcc;
+  border-radius: 50%;
+  position:fixed;
+  top:500px;
+   left:200px;
+}
+</style>
+<body>
+<div class="image">
+
+      <!-- <img src="http://www.w3schools.com/html/pic_mountain.jpg"/> -->
+
+      <h2>Governance Dashboard</h2>
+
+</div>
+<div class="box">box</div>
+
+<div class="box1">box</div>
+<div class="box2">box</div>
+<div class="box3">box</div>
+<div class="box4">box</div>
+<div class="box5">box</div>
+<div class="box6">box</div>
+</body>
+</html>
