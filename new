@@ -33,12 +33,21 @@ body {
 }
 .t1{
     
-    width: 15%;
+    
 	 height: 75px;
 	border: 2px solid black;
     text-align: center;
-   
+    table-layout: fixed;
+	width:100px;
+	border-collapse:collapse;
 } 
+.t1 th, td {
+    border: 1px solid black;
+    overflow: hidden;
+    width: 100px;
+	
+}
+
 
 
 .t1 td:nth-child(1) {
@@ -61,15 +70,23 @@ body {
 
 <table class="t1">
  
-  <tr>
-    <td>Peter</td>
-    <td>Griffin</td>
+ <tr>
+    <td>Jill</td>
+    <td>Smith</td>		
+    <td>50</td>
   </tr>
   <tr>
-    <td>Lois</td>
-    <td>Griffin</td>
+    <td>Eve</td>
+    <td>Jackson</td>		
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>		
+    <td>80</td>
   </tr>
 </table>
 
 </body>
 </html>
+
