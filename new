@@ -1,8 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
 body { 
   
     background-repeat: no-repeat;
     background-position: center; 
     margin: auto;
+	background-color:grey;
 }
     .time1
     {
@@ -27,27 +32,39 @@ body {
     float:left;
 }
 .t1{
-    margin-top: 64px;
-    margin-left: 22px;
-    width: 37%;
-    height: 13%;
+    
+    width: 15%;
+	 height: 75px;
+	border: 2px solid black;
     text-align: center;
-    padding:10px;
+   
 } 
-}
 
-.t1 tr td:nth-child(1) {
+
+.t1 td:nth-child(1) {
     background: #00437d;
-    color:#ffffff;
-    align:center;
-
 }
-
-.t1 tr td:nth-child(2) {
+.t1 td:nth-child(2) {
     background: #ffffff;
-    color:#000000;
-    align:center;
-
 }
 
+</style>
+</head>
+<body>
 
+
+
+<table class="t1">
+ 
+  <tr>
+    <td>Peter</td>
+    <td>Griffin</td>
+  </tr>
+  <tr>
+    <td>Lois</td>
+    <td>Griffin</td>
+  </tr>
+</table>
+
+</body>
+</html>
